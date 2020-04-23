@@ -13,11 +13,11 @@ items:
         apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
-          address: 10.8.131.81
+          address: 172.17.0.2
           port: 22
         public:
-          address: 10.8.131.81
-          port: 22
+          address: 127.0.0.1
+          port: 2222
     versions:
       controlPlane: 1.14.1
       kubelet: 1.14.1
@@ -34,11 +34,11 @@ items:
         apiVersion: baremetalproviderspec/v1alpha1
         kind: BareMetalMachineProviderSpec
         private:
-          address: 10.8.131.81
+          address: 172.17.0.3
           port: 22
         public:
-          address: 10.8.131.81
-          port: 22
+          address: 127.0.0.1
+          port: 2223
     versions:
       controlPlane: 1.14.1
       kubelet: 1.14.1
