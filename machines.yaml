@@ -16,8 +16,8 @@ items:
           address: 172.17.0.2
           port: 22
         public:
-          address: 127.0.0.1
-          port: 2222
+          address: 10.8.131.81
+          port: 22
     versions:
       controlPlane: 1.14.1
       kubelet: 1.14.1
@@ -37,8 +37,8 @@ items:
           address: 172.17.0.3
           port: 22
         public:
-          address: 127.0.0.1
-          port: 2223
+          address: 10.8.131.81
+          port: 22
     versions:
       controlPlane: 1.14.1
       kubelet: 1.14.1
